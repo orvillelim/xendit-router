@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "f9b9aa75-f4c4-4a52-ba7a-353ba9263985",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18055959",
+		"_collection_link": "https://universal-zodiac-811641.postman.co/workspace/HotCake~49043875-dab7-4277-8868-4cf984cd9e44/collection/18055959-f9b9aa75-f4c4-4a52-ba7a-353ba9263985?action=share&source=collection_link&creator=18055959"
+	},
+	"item": [
+		{
+			"name": "Card get route",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"business_id\": \"5f1feace75d97c11a21935a4\",\n    \"reference_id\": \"90392f42-d98a-49ef-a7f3-abcezas123\",\n    \"payment_request_id\": \"pr-90392f42-d98a-49ef-a7f3-abcezas123\",\n    \"type\": \"PAY\",\n    \"country\": \"PH\",\n    \"currency\": \"PHP\",\n    \"request_amount\": 10000.01,\n    \"routing_type\": \"SIMPLE\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/card/routes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"card",
+						"routes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Card get route SPLIT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"business_id\": \"5f1feace75d97c11a21935a4\",\n    \"reference_id\": \"90392f42-d98a-49ef-a7f3-abcezas123\",\n    \"payment_request_id\": \"pr-90392f42-d98a-49ef-a7f3-abcezas123\",\n    \"type\": \"PAY\",\n    \"country\": \"PH\",\n    \"currency\": \"PHP\",\n    \"request_amount\": 10000.01,\n    \"routing_type\": \"SPLIT\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/card/routes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"card",
+						"routes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"business_id\": \"5f1feace75d97c11a21935a4\",\n    \"reference_id\": \"90392f42-d98a-49ef-a7f3-abcezas123\",\n    \"payment_request_id\": \"pr-90392f42-d98a-49ef-a7f3-abcezas123\",\n    \"type\": \"PAY\",\n    \"country\": \"PH\",\n    \"currency\": \"PHP\",\n    \"request_amount\": 10000.01,\n    \"routing_type\": \"SPLIT\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/card/payment",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"card",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update MID setting status",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\n    \"mid_id\": \"orville-test\",\n    \"status\": \"ACTIVE\"\n  }\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000//api/admin/mid-settings",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"",
+						"api",
+						"admin",
+						"mid-settings"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
