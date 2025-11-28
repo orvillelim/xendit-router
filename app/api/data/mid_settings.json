@@ -876,9 +876,9 @@
       "installment": {}
     }
   },
-    {
+  {
     "id": "orville-test",
-    "status": "ACTIVE",
+    "status": "INACTIVE",
     "country": "PH",
     "currency": "PHP",
     "connection": {

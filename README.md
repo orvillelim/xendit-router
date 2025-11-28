@@ -282,3 +282,42 @@ curl --location 'localhost:3000/api/card/payment' \
 }
 
 ```
+
+## Admin update MID settings
+PATCH /api/admin/mid-settings
+
+```curl
+curl --location --request PATCH 'localhost:3000/api/admin/mid-settings' \
+--header 'Content-Type: application/json' \
+--data '  {
+    "mid_id": "orville-test",
+    "status": "INACTIVE"
+  }
+'
+```
+
+### Response body
+```json
+{
+    "id": "orville-test",
+    "status": "INACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+        "alias": "CYBS_REST-xendit_philippines-c5cde9c66b5a901902881d0c38b12918",
+        "partner_name": "CYBERSOURCE",
+        "merchant_id": "xendit_philippines",
+        "acquiring_bank_name": "UBP",
+        "acquiring_bank_mid": "007250000003107"
+    },
+    "cards": {
+        "mid_label": "XENDIT_UBP_PHP",
+        "supported_mcc": [],
+        "supported_card_brands": [
+            "VISA",
+            "MASTERCARD"
+        ],
+        "installment": {}
+    }
+}
+```

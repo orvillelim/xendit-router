@@ -28,6 +28,8 @@ export async function POST(request: NextRequest) {
             );
         }
 
+        // TODO: payment validation and with merchant config
+
         // Find best route
         const isSplit = routing_type === 'SPLIT'
         const routes = await findRoutes(country, currency, merchant.cards.mcc, merchant.cards.allowed_card_brands, merchant.cards.allowed_card_types, isSplit);
