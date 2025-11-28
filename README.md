@@ -47,9 +47,12 @@ The idea is to route the payment to *best* route based on the following rules
 
 
 ## Diagrams
+
+### Router Decision tree
+![alt text](/docs/decision_tree.png)
+
+### UML Diagram
 ![alt text](/docs/uml.png)
-
-
 
 ## Tech Stack
 

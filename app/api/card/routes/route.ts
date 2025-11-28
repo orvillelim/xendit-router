@@ -85,9 +85,6 @@ export async function findRoutes(country: string, currency: string, mcc: string,
 
     console.log(`Found ${routes.length} matching routes`);
 
-    if (!isSplit) {
-        return routes
-    }
 
     // Apply split routing rules using weights based json config
     const countryWeights = routingWeights[country] || [];
@@ -96,6 +93,15 @@ export async function findRoutes(country: string, currency: string, mcc: string,
         const weight = weightConfig?.weight || 0;
         return {route, weight};
     });
+
+    if (!isSplit) {
+        // Select the route with the highest weight
+        const highestWeightedRoute = routesWithWeights.reduce((max, current) =>
+            current.weight > max.weight ? current : max
+        );
+        console.log(`SIMPLE routing: Selected highest weighted route - ${highestWeightedRoute.route.id} (${highestWeightedRoute.route.cards.mid_label}) with weight ${highestWeightedRoute.weight}`);
+        return [highestWeightedRoute.route];
+    }
 
     console.log('Available routes with weights:', routesWithWeights.map(r => ({
         id: r.route.id,
