@@ -14,6 +14,38 @@ The idea is to route the payment to *best* route based on the following rules
 - **Processor Capability Filtering**: Routes payments by Active, country, currency, MCC, card brands, and card types.
 - **Configurable Weights**: JSON-based routing weight configuration per country.
 
+### Weighted split routing
+
+```
+  Visual Example: Weights [0.7, 0.2, 0.1]
+
+  Number line from 0 to 1.0:
+
+  Route A  │  Route B  │  Route C
+  0───────0.7─────────0.9────────1.0
+
+  Iteration Process:
+
+  Loop 1: Route A (weight 0.7)
+  cumulative = 0 + 0.7 = 0.7
+
+  Route A's range: 0.0 to 0.7
+              ▼
+  0───────────0.7─────────0.9────────1.0
+  ◄──Route A──►
+
+  If random < 0.7 → It's in Route A's range!
+
+  Loop 2: Route B (weight 0.2)
+  cumulative = 0.7 + 0.2 = 0.9
+
+  Route B's range: 0.7 to 0.9
+                      ▼
+  0───────────0.7─────────0.9────────1.0
+              ◄──Route B──►
+```
+
+
 ## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
