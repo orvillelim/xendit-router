@@ -47,7 +47,7 @@ The idea is to route the payment to *best* route based on the following rules
 
 
 ## Diagrams
-![alt text](/docs/service_uml.png)
+![alt text](/docs/uml.png)
 
 
 
