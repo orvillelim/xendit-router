@@ -1,0 +1,1424 @@
+[
+  {
+    "id": "0c221e62-90f6-4c45-ab62-a8df975439c3",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-ae0a750c77997d858b3f1466780e7f61",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "123110510000"
+    },
+    "cards": {
+      "mid_label": "CTV_TEST",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "AMEX",
+        "AMEX",
+        "AMEX",
+        "JCB",
+        "VISA",
+        "VISA_ELECTRON",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "14269455-9d57-4541-8936-78f172acedae",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "MYR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-170fd4fa9abd4c7fe4220d63d1981c7c",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "123110510001"
+    },
+    "cards": {
+      "mid_label": "CYBS_REST_MYR",
+      "supported_mcc": [],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "AMEX",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "17d56dc1-3f60-44bb-8020-2ff45535e2d1",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "USD",
+    "connection": {
+      "alias": "CYBS_REST-007250000004179-75cde3d35165cbd009b65cc65bc9740e",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "007250000004179",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004179"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_ECOMM_USD_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "24196270-9675-4b30-b974-beef3acf59a6",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-xendit_philippines-cd3650338f41680bd3ab44e3aeead4ff",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "001988030000"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_ECOMM_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "27761713-8de9-4cc8-96bb-f34bfcb88f60",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "USD",
+    "connection": {
+      "alias": "CYBS_REST-007250000003198-951151891192ddf9606f0486564bfb24",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "007250000003198",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000003198"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_ECOMM_USD_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "29cfeffe-048d-44e2-8e7c-94aecbae96c3",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit-fdb57938217c016f87008d84607706db",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001988030000"
+    },
+    "cards": {
+      "mid_label": "CTV_TEST_FAC",
+      "supported_mcc": [],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "2c520fbd-9c53-467d-9e94-2a8c3c34d2cd",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_jewelry-fd635911601c7d54d3c26aaa8b1fbd29",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_jewelry",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999132239"
+    },
+    "cards": {
+      "mid_label": "XENDIT_JEWELRY_5944",
+      "supported_mcc": [
+        "5944"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "32d28675-20bd-48e3-a945-02fc1f28b158",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-a408b1a9d4df2527121aa591b92975ec",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004437"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_PH_MID_3_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "34da6cde-4eea-449d-82a8-7a71b4688dc2",
+    "status": "INACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CTV-xendit_ctv_agg-0823303e132a0a6003bcc3ccef9e26fc",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "123110510000"
+    },
+    "cards": {
+      "mid_label": "CTV_TEST",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "AMEX",
+        "AMEX",
+        "BCA",
+        "VISA",
+        "MASTERCARD",
+        "AMEX"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "36b80ed7-be29-4894-b9b7-65e6a059e419",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-83f79a20da0f9dba0c406fad1e5b1915",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "00199909816-ocbc-6mo"
+    },
+    "cards": {
+      "mid_label": "OCBCNISP_ID_6MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 0,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "3761d026-65fe-40db-b2e4-9fd992c67aee",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-xendit_philippines-c5cde9c66b5a901902881d0c38b12918",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000003107"
+    },
+    "cards": {
+      "mid_label": "XENDIT_UBP_PHP",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "3c7e1225-60cf-46d4-a3ac-ec9155462bbb",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bni_acm_ins_12mo-5817452fd187aab97d9343988a59e07e",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bni_acm_ins_12mo",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "100022000006"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNI_ACM_INS_12MO",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 12,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "48cdedd4-a5d8-41f2-ae8b-e114cc1b2ee6",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "BCA-000005000856336",
+      "partner_name": "BCA",
+      "merchant_id": "000005000856336",
+      "acquiring_bank_name": "BCA",
+      "acquiring_bank_mid": "000005000856336"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BCA_PG",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "BCA",
+        "VISA",
+        "MASTERCARD",
+        "JCB",
+        "AMEX"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "4a876ada-b5e3-4c7a-82f6-bbd5e170cfad",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_zomato-3818754dd0f3c899a32ef194c853f12b",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_zomato",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "1231105100002"
+    },
+    "cards": {
+      "mid_label": "CTV_BNI_TRAVEL_4722",
+      "supported_mcc": [
+        "4722"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "AMEX",
+        "VISA",
+        "MASTERCARD",
+        "AMEX",
+        "AMEX"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "4d50dc22-af10-497f-8d04-b5315c383b9f",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-766faa6ff35dd2f858680702e7b736c5",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004482"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_PH_MID_5_5999_RECURRING",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "4f910514-6987-4b03-9cc2-7f656a535d7b",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-39a808b50918758d395831b0cd8b4888",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004428"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_ECOMM_2_5999_RECURRING",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MAESTRO",
+        "JCB",
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "5895a3fe-f8e9-412b-8b58-be7cc70947be",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-deb3f5924cdbe6b00004d74a0e884b4b",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004464"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_PH_MID_4_5999_RECURRING",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "670b68b7-0185-4792-92f5-309ed68d535e",
+    "status": "INACTIVE",
+    "country": "US",
+    "currency": "USD",
+    "connection": {
+      "alias": "CTV-xendit_zomato-0652c329647534eeadbf35cf5df561cd",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_zomato",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "1231105100007"
+    },
+    "cards": {
+      "mid_label": "CTV_USD_TEST",
+      "supported_mcc": [
+        "4722"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "VISA",
+        "MASTERCARD",
+        "AMEX",
+        "AMEX",
+        "AMEX"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "6812538a-aa6e-4e06-8caa-f4b4ca460952",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bni_acm_ins_6mo-920d74f57cee294fc7ec0d4050b33cf8",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bni_acm_ins_6mo",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "100022000011"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNI_ACM_INS_6MO",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "6e62af04-b1f0-4e5f-8ea3-78d36056cc4c",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-6c92d0eec9f5e8fa2ab8d2eabb7f9960",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "00199909816-hsbc-3mo"
+    },
+    "cards": {
+      "mid_label": "HSBC_ID_3MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 0,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "70a596bc-9ee4-4659-a4fe-40b01a35332e",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-909410ba05547ceecbbdb4af94401203",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004446"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_PH_MID_3_5999_RECURRING",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "MAESTRO",
+        "JCB",
+        "VISA"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "7c6cf75c-b18b-48e5-8548-c23a9503f097",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-104019905-ac03c65bfd6503093f2a50c0d1db9d6c",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "104019905",
+      "acquiring_bank_name": "PAYMAYA",
+      "acquiring_bank_mid": "104019905"
+    },
+    "cards": {
+      "mid_label": "XENDIT_PAYMAYA_TEST",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "7d9f4ccc-0111-41d6-8231-6ca73ba8b5e8",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_acm_ins_3mo-30bb4dc7fcb2c25a5da8fa8c2f16e35b",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_acm_ins_3mo",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098170"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BRI_ACM_INS_3MO",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "80a72949-4d56-4903-a326-fe61bc0c273b",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_travelio-6dd1a07c75b687f72306a161de612b5a",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_travelio",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "000100022000003"
+    },
+    "cards": {
+      "mid_label": "BNI_HOTEL_7011",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "80c77e19-76f0-4a9e-9fc7-e14bb2283bd0",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bni_acm_ins_3mo-66f45212310908f21af061c4bbb28f4a",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bni_acm_ins_3mo",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "100022000010"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNI_ACM_INS_3MO",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "84b0221e-5342-42d6-9608-d0782a064df3",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_acm_ins_12mo-ad7c780a3ccc1fd5d5b0a87ef72d1429",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_acm_ins_12mo",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098172"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BRI_ACM_INS_12MO",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 12,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "896748cb-5093-4182-9a3f-ec6165013700",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "GPN-xendit_gpn-3DVV77GQIZETXFZV6P6XQOS2UE",
+      "partner_name": "GPN",
+      "merchant_id": "xendit_gpn",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "000963930"
+    },
+    "cards": {
+      "mid_label": "XENDIT_GPN",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "GPN"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "8ee96b03-26f5-4eb5-baf9-6b8462a5baa9",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-ae0a750c77997d858b3f1466780e7f61",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "123110510000"
+    },
+    "cards": {
+      "mid_label": "PAPI_RECURRING_IDR",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "AMEX",
+        "AMEX",
+        "AMEX",
+        "JCB",
+        "VISA",
+        "VISA_ELECTRON"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "90caf51e-0d9b-4b60-847c-12793c5e0b12",
+    "status": "INACTIVE",
+    "country": "ID",
+    "currency": "MYR",
+    "connection": {
+      "alias": "CTV-xendit-3a9595123eef2b3ff1beb22f02583379",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001988030000"
+    },
+    "cards": {
+      "mid_label": "CTV_TEST_FAC",
+      "supported_mcc": [],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "a1206976-c672-428e-8e1a-edcc009267f8",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-201f8aea1df9b0473bb7cf8d9121131f",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004473"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_PH_MID_5_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "a1c1b823-148c-4f5d-9833-28bc086c88df",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_zomato-91e4e3442db156082bc42d2429234143",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_zomato",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "00096393890"
+    },
+    "cards": {
+      "mid_label": "XENDIT_ZOMATO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "JCB",
+        "AMEX",
+        "AMEX",
+        "VISA"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "a47c4f86-954e-4195-89c9-e6c11160645f",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bni_ecom_ins_6mo-2cb2f05d8f65dcf932296ded73bcbd0b",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bni_ecom_ins_6mo",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "100022000005"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNI_ECOM_INS_6MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "ab0566cd-cf72-409b-8e89-e238dc5ae2f0",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-xendit_philippines-c5cde9c66b5a901902881d0c38b12918",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000003107"
+    },
+    "cards": {
+      "mid_label": "XENDIT_UBP_PHP",
+      "supported_mcc": [],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+    {
+    "id": "orville-test",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-xendit_philippines-c5cde9c66b5a901902881d0c38b12918",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000003107"
+    },
+    "cards": {
+      "mid_label": "XENDIT_UBP_PHP",
+      "supported_mcc": [],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "abde9a24-51a4-48fd-af99-854bb1ed2212",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-192694145b410319539ec04d7ac30f52",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "0019990981612"
+    },
+    "cards": {
+      "mid_label": "UOB_ID_6MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA_ELECTRON",
+        "JCB",
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "bc06da03-4526-4a6b-aa62-a4270ed43edd",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-007250000003759-65686c9202c27c1ed0ddb7dae143b4b7",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "007250000003759",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "001988030000"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_ECOMM_5999_RECURRING",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "JCB",
+        "VISA"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "bf0662de-7d3e-4aae-ae84-9e4bee8f4aca",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_ecom_ins_6mo-9e443e0cab5493b36cc680aff0250d21",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_ecom_ins_6mo",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098168"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BRI_ECOM_INS_6MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "c1ebb7bf-2572-40a9-a28e-290b2cb45a30",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-0fa716ae65c318bbae39e7e7978c35f5",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "00199909816-hsbc-6mo"
+    },
+    "cards": {
+      "mid_label": "HSBC_ID_6MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "JCB",
+        "VISA"
+      ],
+      "installment": {
+        "min_amount": 0,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "cbf61b5c-fb5c-44c5-87ce-c47dd079ee6d",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-9374ed79f8220fdb1586e8d5c84a2e1c",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098161"
+    },
+    "cards": {
+      "mid_label": "UOB_ID_3MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "VISA",
+        "MASTERCARD",
+        "VISA_ELECTRON"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "d0f04405-8db6-4f09-befc-dcf78076aeaa",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-0391ffa1b5fd41fec49f6eace2f8d002",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004455"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_PH_MID_4_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "d5573cf7-261a-4a80-901d-f6b38f2f262d",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_ecom_ins_12mo-03341d00387bb89d52eb4c55333030b7",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_ecom_ins_12mo",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098169"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BRI_ECOM_INS_12MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 12,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "d77ab0c8-0dee-4d05-8c62-8db095852f2a",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_acm_ins_6mo-946744896b3e6a8ab390dd61468405c9",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_acm_ins_6mo",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098171"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BRI_ACM_INS_6MO",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 6,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "d8f39799-67f5-475d-94b4-47892ac312d9",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CTV-xendit_philippines-5133f0d5bb96a3d07922fb2a40935360",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_philippines",
+      "acquiring_bank_name": "UBP",
+      "acquiring_bank_mid": "007250000004419"
+    },
+    "cards": {
+      "mid_label": "UBP_CTV_ECOMM_2_5999",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "MAESTRO",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "e047b603-7309-41ac-8c9e-243eb85b55bb",
+    "status": "ACTIVE",
+    "country": "TH",
+    "currency": "THB",
+    "connection": {
+      "alias": "GBP-gbp10303",
+      "partner_name": "GBPRIMEPAY",
+      "merchant_id": "gbp10303",
+      "acquiring_bank_name": "GBPRIMEPAY",
+      "acquiring_bank_mid": "gbp10303"
+    },
+    "cards": {
+      "mid_label": "XENDIT_GBP_TH",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "VISA",
+        "AMEX",
+        "JCB",
+        "CHINA_UNIONPAY"
+      ],
+      "supported_card_types": [
+        "CREDIT",
+        "DEBIT",
+        "PREPAID",
+        "UNKNOWN"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "e2eb862e-4910-435f-ba88-b4307ca8de96",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+      "alias": "CYBS_REST-104019905-ac03c65bfd6503093f2a50c0d1db9d6c",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "104019905",
+      "acquiring_bank_name": "PAYMAYA",
+      "acquiring_bank_mid": "104019905"
+    },
+    "cards": {
+      "mid_label": "PAPI_RECURRING_PH",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "ecdd5ede-0aed-4a16-8ca9-9cf411bc7e26",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_ctv_agg-2949c2e71214dea52eee601bda011322",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_ctv_agg",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "00199909816-ocbc-3mo"
+    },
+    "cards": {
+      "mid_label": "OCBCNISP_ID_3MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 0,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "ed60c5c9-38c2-4c64-b7a0-3af8604f751c",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-001999139551-1f08d09249a929b97fd9c07e3c6c315c",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "001999139551",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999139551"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNPL_6051",
+      "supported_mcc": [
+        "6051"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "eef5098f-b741-41ab-8053-6e335f7cfa5d",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_travelio-8da3e76acef6ec3067fdbf49ea68bdd1",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_travelio",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "1231105100002"
+    },
+    "cards": {
+      "mid_label": "CTV_BNI_HOTEL_7011",
+      "supported_mcc": [],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "f0cec3c7-ce90-4555-8237-d7b6f19224af",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bri_ecom_ins_3mo-45bcaa9ffaf909636484b288d0965c46",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bri_ecom_ins_3mo",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001999098167"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BRI_ECOM_INS_3MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "f0e8012c-0c41-4dd9-94a6-ed089d343dda",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CTV-bii009090157-b21f9146fd94808e41a88e734b303447",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "bii009090157",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001988030007"
+    },
+    "cards": {
+      "mid_label": "BRI_HOTEL_7011",
+      "supported_mcc": [
+        "7011"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "f335e5e5-e908-49b8-9939-b4394be67bbf",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bni_ecom_ins_3mo-e8ecac19b3f8a6aa6d59dda905ba0611",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bni_ecom_ins_3mo",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "100022000009"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNI_ECOM_INS_3MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 3,
+        "interval": "MONTH"
+      }
+    }
+  },
+  {
+    "id": "f7591b87-4008-4429-978c-acc018b75cac",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CTV-bii009090152-d258e6f0b3117f514eeac0ef4f7267c0",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "bii009090152",
+      "acquiring_bank_name": "BRI",
+      "acquiring_bank_mid": "001995740001"
+    },
+    "cards": {
+      "mid_label": "BRI_TRAVEL_4722",
+      "supported_mcc": [
+        "4722"
+      ],
+      "supported_card_brands": [
+        "MASTERCARD",
+        "VISA"
+      ],
+      "installment": {}
+    }
+  },
+  {
+    "id": "ff826e9b-549e-4719-b8b0-7b905ffe281a",
+    "status": "ACTIVE",
+    "country": "ID",
+    "currency": "IDR",
+    "connection": {
+      "alias": "CYBS_REST-xendit_bni_ecom_ins_12mo-8638d65d3840d9c06c4dadd1dfbff52d",
+      "partner_name": "CYBERSOURCE",
+      "merchant_id": "xendit_bni_ecom_ins_12mo",
+      "acquiring_bank_name": "BNI",
+      "acquiring_bank_mid": "100022000006"
+    },
+    "cards": {
+      "mid_label": "XENDIT_BNI_ECOM_INS_12MO",
+      "supported_mcc": [
+        "5999"
+      ],
+      "supported_card_brands": [
+        "JCB",
+        "VISA",
+        "MASTERCARD"
+      ],
+      "installment": {
+        "min_amount": 500000,
+        "count": 12,
+        "interval": "MONTH"
+      }
+    }
+  }
+]

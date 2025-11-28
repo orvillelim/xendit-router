@@ -1,0 +1,204 @@
+[
+  {
+    "id": "5f1feace75d97c11a21935a4",
+    "business_id": "5f1feace75d97c11a21935a4",
+    "signing_entity": "PT_SINAR_DIGITAL_TERDEPAN",
+    "cards": {
+      "allowed_card_brands": [
+        "MASTERCARD",
+        "JCB",
+        "VISA",
+        "UNKNOWN",
+        "VISA_ELECTRON",
+        "AMEX"
+      ],
+      "allowed_card_types": [
+        "CREDIT",
+        "DEBIT",
+        "PREPAID",
+        "UNKNOWN"
+      ],
+      "currency_configuration": {
+        "IDR": {
+          "min_amount": "75.0",
+          "max_amount": "2.0E8",
+          "settlement_time": "168"
+        },
+        "PHP": {
+          "min_amount": "10.0",
+          "max_amount": "700000.0",
+          "settlement_time": "168"
+        },
+        "SGD": {
+          "min_amount": null,
+          "max_amount": null,
+          "settlement_time": null
+        },
+        "THB": {
+          "min_amount": "1.0",
+          "max_amount": "2000000.0",
+          "settlement_time": "24"
+        },
+        "VND": {
+          "min_amount": "1.0",
+          "max_amount": "2000000.0",
+          "settlement_time": "168"
+        },
+        "USD": {
+          "min_amount": null,
+          "max_amount": null,
+          "settlement_time": null
+        },
+        "MYR": {
+          "min_amount": "0.01",
+          "max_amount": "200000.0",
+          "settlement_time": "168"
+        }
+      },
+      "mcc": "5814",
+      "industry_sector": "Insurance"
+    }
+  },
+  {
+    "id": "65e95b93b7e6797d142e4ee7",
+    "business_id": "65e95b93b7e6797d142e4ee7",
+    "signing_entity": "XENDIT_PHILIPPINES_INC",
+    "cards": {
+      "allowed_card_brands": [
+        "VISA",
+        "MASTERCARD",
+        "JCB",
+        "UNKNOWN",
+        "VISA_ELECTRON"
+      ],
+      "allowed_card_types": [
+        "CREDIT",
+        "DEBIT",
+        "PREPAID",
+        "UNKNOWN"
+      ],
+      "currency_configuration": {
+        "IDR": null,
+        "PHP": {
+          "min_amount": "10.0",
+          "max_amount": "700000.0",
+          "settlement_time": "72"
+        },
+        "SGD": null,
+        "THB": null,
+        "VND": null,
+        "USD": null,
+        "MYR": null
+      },
+      "mcc": "5999",
+      "industry_sector": "e-commerce"
+    }
+  },
+  {
+    "id": "65e83defb7e6797d1411e793",
+    "business_id": "65e83defb7e6797d1411e793",
+    "signing_entity": "XENDIT_SDN_BHD",
+    "cards": {
+      "allowed_card_brands": [
+        "MASTERCARD",
+        "VISA",
+        "AMEX",
+        "JCB",
+        "CHINA_UNIONPAY"
+      ],
+      "allowed_card_types": [
+        "CREDIT",
+        "DEBIT",
+        "PREPAID",
+        "UNKNOWN"
+      ],
+      "currency_configuration": {
+        "IDR": null,
+        "PHP": null,
+        "SGD": null,
+        "THB": null,
+        "VND": null,
+        "USD": null,
+        "MYR": {
+          "min_amount": "1.0",
+          "max_amount": "1000.0",
+          "settlement_time": "120"
+        }
+      },
+      "mcc": "5999",
+      "industry_sector": "e-commerce"
+    }
+  },
+  {
+    "id": "5fe03847582c343334beb510",
+    "business_id": "5fe03847582c343334beb510",
+    "signing_entity": "PT_SINAR_DIGITAL_TERDEPAN",
+    "cards": {
+      "allowed_card_brands": [
+        "MASTERCARD",
+        "JCB",
+        "VISA",
+        "UNKNOWN",
+        "VISA_ELECTRON",
+        "AMEX"
+      ],
+      "allowed_card_types": [
+        "CREDIT",
+        "DEBIT",
+        "PREPAID",
+        "UNKNOWN"
+      ],
+      "currency_configuration": {
+        "IDR": {
+          "min_amount": "5000.0",
+          "max_amount": "2.0E8",
+          "settlement_time": "72"
+        },
+        "PHP": null,
+        "SGD": null,
+        "THB": null,
+        "VND": null,
+        "USD": null,
+        "MYR": null
+      },
+      "mcc": "5999",
+      "industry_sector": "e-commerce"
+    }
+  },
+  {
+    "id": "63747acce49be7e58d723316",
+    "business_id": "63747acce49be7e58d723316",
+    "signing_entity": "XENDIT_PHILIPPINES_INC",
+    "cards": {
+      "allowed_card_brands": [
+        "VISA",
+        "MASTERCARD"
+      ],
+      "allowed_card_types": [
+        "CREDIT",
+        "DEBIT",
+        "PREPAID",
+        "UNKNOWN"
+      ],
+      "currency_configuration": {
+        "IDR": null,
+        "PHP": {
+          "min_amount": "20.0",
+          "max_amount": "2000000.0",
+          "settlement_time": "120"
+        },
+        "SGD": null,
+        "THB": null,
+        "VND": null,
+        "USD": {
+          "min_amount": "0.01",
+          "max_amount": "200000.0",
+          "settlement_time": "168"
+        },
+        "MYR": null
+      },
+      "mcc": "5999",
+      "industry_sector": "Retail"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "ID": [
+    { "partner": "GPN", "mid_id": "896748cb-5093-4182-9a3f-ec6165013700", "weight": 1.0 },
+    { "partner": "BCA", "mid_id": "48cdedd4-a5d8-41f2-ae8b-e114cc1b2ee6", "weight": 0.5 },
+    { "partner": "CYBERSOURCE", "mid_id": "0c221e62-90f6-4c45-ab62-a8df975439c3", "weight": 0.3 }
+  ],
+  "PH": [
+    { "partner": "CYBERSOURCE", "mid_id": "ab0566cd-cf72-409b-8e89-e238dc5ae2f0", "weight": 1.0 },
+    { "partner": "CYBERSOURCE", "mid_id": "orville-test", "weight": 0.3 },
+    { "partner": "CYBERSOURCE", "mid_id": "24196270-9675-4b30-b974-beef3acf59a6", "weight": 1.0 },
+    { "partner": "PAYMAYA", "mid_id": "7c6cf75c-b18b-48e5-8548-c23a9503f097", "weight": 0.9 }
+  ],
+  "TH": [
+    { "partner": "GBPRIMEPAY", "mid_id": "e047b603-7309-41ac-8c9e-243eb85b55bb", "weight": 1.0 }
+  ],
+  "MY": []
+}
