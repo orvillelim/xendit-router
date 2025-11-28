@@ -38,3 +38,14 @@ export interface MidSettings {
     installment: any;
   };
 }
+
+export interface PaymentRequest {
+  business_id: string;
+  reference_id: string;
+  payment_request_id: string;
+  country: string;
+  currency: string;
+  request_amount: number;
+  card_number?: string;
+  routing_type?: 'SIMPLE' | 'SPLIT';
+}
