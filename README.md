@@ -188,3 +188,97 @@ xendit-card-router/
 └── package.json
 ```
 
+## Get Routes
+### Find Routes simple routing 
+POST `/api/card/routes`
+
+```
+curl --location 'localhost:3000/api/card/routes' \
+--header 'Content-Type: application/json' \
+--data '{
+    "business_id": "5f1feace75d97c11a21935a4",
+    "reference_id": "90392f42-d98a-49ef-a7f3-abcezas123",
+    "payment_request_id": "pr-90392f42-d98a-49ef-a7f3-abcezas123",
+    "type": "PAY",
+    "country": "PH",
+    "currency": "PHP",
+    "request_amount": 10000.01,
+    "routing_type": "SIMPLE"
+  }'
+```
+
+### Find Routes split routing 
+POST `/api/card/routes`
+```
+curl --location 'localhost:3000/api/card/routes' \
+--header 'Content-Type: application/json' \
+--data '{
+    "business_id": "5f1feace75d97c11a21935a4",
+    "reference_id": "90392f42-d98a-49ef-a7f3-abcezas123",
+    "payment_request_id": "pr-90392f42-d98a-49ef-a7f3-abcezas123",
+    "type": "PAY",
+    "country": "PH",
+    "currency": "PHP",
+    "request_amount": 10000.01,
+    "routing_type": "SPLIT" # defined here
+  }'
+```
+
+### Response object
+```json
+{
+    "id": "orville-test",
+    "status": "ACTIVE",
+    "country": "PH",
+    "currency": "PHP",
+    "connection": {
+        "alias": "CYBS_REST-xendit_philippines-c5cde9c66b5a901902881d0c38b12918",
+        "partner_name": "CYBERSOURCE",
+        "merchant_id": "xendit_philippines",
+        "acquiring_bank_name": "UBP",
+        "acquiring_bank_mid": "007250000003107"
+    },
+    "cards": {
+        "mid_label": "XENDIT_UBP_PHP",
+        "supported_mcc": [],
+        "supported_card_brands": [
+            "VISA",
+            "MASTERCARD"
+        ],
+        "installment": {}
+    }
+}
+```
+
+## Payment endpoint
+POST /api/card/payment
+
+```
+curl --location 'localhost:3000/api/card/payment' \
+--header 'Content-Type: application/json' \
+--data '{
+    "business_id": "5f1feace75d97c11a21935a4",
+    "reference_id": "90392f42-d98a-49ef-a7f3-abcezas123",
+    "payment_request_id": "pr-90392f42-d98a-49ef-a7f3-abcezas123",
+    "type": "PAY",
+    "country": "PH",
+    "currency": "PHP",
+    "request_amount": 10000.01,
+    "routing_type": "SPLIT"
+  }'
+```
+
+### Response body
+```json
+{
+    "success": false,
+    "status": "FAILED",
+    "transaction_id": "cmiihkrjr00032r1bpcpvjhm3",
+    "reference_id": "90392f42-d98a-49ef-a7f3-abcezas123",
+    "payment_request_id": "pr-90392f42-d98a-49ef-a7f3-abcezas123",
+    "error_code": "PAYMENT_DECLINED",
+    "error_message": "Payment was declined by the issuing bank",
+    "processed_at": "2025-11-28T06:33:25.623Z"
+}
+
+```
